@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,52 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App {
+  height: 100vh;
+  padding: 0px 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.users {
+  display: flex;
+}
+
+.user {
+  flex: 1;
+  gap: 10px;
+}
+
+.update {
+  border: 1px solid chartreuse;
+  padding: 3px 6px;
+  color: lime;
+  cursor: pointer;
+}
+
+.delete {
+  border: 1px solid pink;
+  padding: 3px 6px;
+  color: red;
+  cursor: pointer;
+}
+
+.update:hover {
+  color: blue;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid gray;
 }
